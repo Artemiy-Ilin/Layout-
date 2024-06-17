@@ -1,0 +1,171 @@
+body {
+    margin: 0 auto;
+}
+
+/*Раздел Заголовок*/
+.main {
+    margin: 32px 130px 80px 130px;
+}
+
+.section-1 {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.section-1__title {
+    width: 40%;
+    font-family: 'SourceSans3-Bold', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.section-1__text {
+    width: 30%;
+    font-family: 'SourceSans3-Regular', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+}
+
+/*Главное изображение*/
+.mainimg {
+    margin-top: 50px;
+    aspect-ratio: 59/22;
+}
+
+/*Раздел О предприятии*/
+.about_title {
+    font-family: 'SourceSans3-Bold', sans-serif;
+    color: #333333;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.about-text {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15em;
+    font-family: 'SourceSans3-Regular', sans-serif;
+    color: #333333;
+    font-size: 16px;
+}
+
+.about-text__1 {
+    width: 580px;
+    margin: 0 20px 20px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-between;
+}
+
+/*Раздел Продукция*/
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 5em;
+    justify-content: center;
+}
+
+.product {
+    width: 380px;
+    height: 435px;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.product__img {
+    margin-bottom: 30px;
+    padding-left: 24px;
+}
+
+.product__title {
+    padding-top: 90px;
+    padding-left: 24px;
+    font-family: 'SourceSans3-SemiBold', sans-serif;
+    color: #333333;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.product__title p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.product__link {
+    padding-top: 10px;
+    padding-left: 24px;
+    padding-bottom: 32px;
+    font-family: 'SourceSans3-Regular', sans-serif;
+    font-weight: 400;
+}
+
+.product__link a {
+    text-decoration: none;
+    color: #607CE6;
+}
+.product__link a:hover {
+    text-decoration: underline;
+}
+
+.product__link p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* Раздел Представительства */
+.map {
+    margin-top: 50px;
+    aspect-ratio: 236/143;
+}
+
+/* Раздел Новости */
+.news {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 5em;
+    justify-content: center;
+}
+
+.new {
+    width: 380px;
+    height: 478px;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+}
+
+.new__title {
+    font-family: 'SourceSans3-Regular', sans-serif;
+    color: #333333;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.new__link {
+    padding-top: 25%;
+    padding-left: 16px;
+    font-family: 'SourceSans3-Regular', sans-serif;
+    color: #607CE6;
+}
+.new__link a {
+    text-decoration: none;
+    color: #607CE6;
+}
+.new__link a:hover {
+    text-decoration: underline;
+}
+
+.new__date {
+    font-family: 'SourceSans3-Regular', sans-serif;
+    color: #888888;
+    padding-left: 16px;
+    padding-top: 10px;

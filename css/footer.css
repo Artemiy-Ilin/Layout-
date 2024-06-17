@@ -1,0 +1,34 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+
+    width: 100%;
+    height: 361px;
+    background-color: #333333;
+}
+
+/* Логотип */
+.logo {
+    padding-left: 130px;
+    padding-top: 56px;
+}
+
+/* Меню */
+.menu {
+    list-style-type: none;
+    font-family: 'SourceSans3-Regular', sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.menu li {
+    padding: 10px;
+}
+
+/* Товарный знак */
+.finish {
+    color: #FFFFFF;
+    align-self:flex-end;
+    margin-left: -20%;
+}

@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "SourceSans3-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: local("SourceSans3-Regular"),
+            url("/fonts/SourceSans3-Regular.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "SourceSans3-SemiBold";
+    font-style: normal;
+    font-weight: 400;
+    src: local("SourceSans3-SemiBold"),
+            url("/fonts/SourceSans3-SemiBold.woff") format("woff");
+  }
+
+  @font-face {
+        font-family: "SourceSans3-Bold";
+        font-style: normal;
+        font-weight: 400;
+        src: local("SourceSans3-Bold"),
+                url("/fonts/SourceSans3-Bold.woff") format("woff");
+      }
